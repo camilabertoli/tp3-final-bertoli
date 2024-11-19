@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Mulish:wght@200..1000&family=Poppins:wght@100;400;700&family=Funnel+Display:wght@300..800&family=Limelight&display=swap');
+
+
+.navbar-brand img { width: 32px;}
+.navbar-toggler span { color: pink;}
+h1 span { color: lightgray;}
+
+
+body {
+
+        font-family: 'Roboto', sans-serif;
+        background-color: #e2c7ff;
+        color: #363B4D;
+        margin: 30px;
+        padding: 0;
+        box-sizing: border-box;
+        
+}
+
+
+h1 {
+    line-height: 1.2; 
+    font-size: 50px; 
+    font-family: "funnel display";
+    padding: 10px 0; 
+    width: 70%;
+    font-weight: 800;
+
+}
+
+h2 {
+    font-size: 20px; 
+    font-family: "funnel display";
+    margin-bottom: 300px;
+    font-weight: 300;
+  
+
+}
+
+h3{
+   font-family: 'poppins',800px;
+font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+
+
+}
+
+h4 {
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px; /* Reduce el espacio encima de h4 */
+   margin-bottom: 10px;
+
+}
+
+p {
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+  
+}
+
+
+img.img-fluid {
+    margin-bottom: 200px;
+    margin-top: 10;
+}
+
+

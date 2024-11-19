@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+
+<link rel="stylesheet" href="https://icons.getbootstrap.com/assets/font/bootstrap-icons.min.css">
+
+
+   
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <title>FINAL</title>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-info" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img src="imagenes/logo1.png" alt="logo">CM styling</a>
+          <button class="navbar-toggler" type="button" 
+       data-bs-toggle="collapse" data-bs-target="#miMenu" >
+       <span class="bi bi-menu-up"></span> 
+          </button>
+          <div class="collapse navbar-collapse" id="miMenu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                Redes sociales
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.instagram.com/cm.styling/">Instagram</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                  <li><button type="button" class="ms-2 btn btn-dark" data-bs-toggle="modal" data-bs-target="#miModal">
+                   Contacto
+                    </button> 
+                  </li>
+                  
+                </ul>
+              </li>
+            
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    
+
+<header class="container-fluid bg-secondary">
+
+</header>
+
+
+<main class="container-md">
+<section class="w-75 m-auto">
+ 
+        </div> 
+       
+            <img src="imagenes/web img 1.jpg" class="d-block w-100" alt="imagen foto 1">
+             
+            </div>
+        
+           
+        </div> 
+    </section> 
+
+
+    <section class="mt-3 w-100 row justify-content-around">
+
+<div>
+ <h1>Empoderate con tus joyas </h1>
+ <h2>Hacemos que el poder femenino y autoestima te haga brillar mas que las joyas </h2>
+</div>
+
+<section class="mt-3 w-100 row justify-content-around">
+  <div class="col-md-12 col-lg-2">
+        <h3>Conexion personal</h3>
+<p>CM Styling busca que sus joyas reflejen la esencia profunda de quien las lleva, conectando al cliente con materiales naturales y formas que resuenan con su personalidad y su entorno. Las joyas no solo embellecen, sino que también cuentan una historia personal y espiritual.</p>
+
+      </div>
+
+      <div class="col-md-5 col-lg-2">
+        <h3>Diseña tu joya</h3>
+        <p>Cada cliente tiene la oportunidad de participar en el diseño de su pieza, seleccionando materiales, formas y piedras que conecten con su energía y necesidades individuales.El proceso de creación es altamente colaborativo y busca transformar las ideas y deseos del cliente en una joya que sea un reflejo tangible de su interior..</p>
+
+      </div>
+
+      <div class="col-md-5 col-lg-2">
+        <h3>Proceso detallado</h3>
+        <p>La empresa valora la artesanía como un proceso que requiere tiempo, dedicación y atención a los detalles. Cada pieza es tratada como una obra de arte que evoluciona desde la materia prima hasta un diseño único. </p>
+
+      </div>
+    </section>
+</main>
+
+<section class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+  <div class="col-md-6 col-lg-4 text-center">
+    <h4>Mirada antroposofica</h4>
+    <p> Cada pieza se convierte en un vínculo entre el alma y el cosmos, un recordatorio de la belleza que surge del interior hacia el exterior."</p>
+  </div>
+</section>
+
+
+
+<section class="mt-2 w-90 row justify-content-center">
+  <div class="col-md-5 col-lg-2">
+    <img src="imagenes/Artboard 1_3.jpg" class="img-fluid img-thumbnail">
+  </div>
+
+  <div class="col-md-5 col-lg-2">
+    <img src="imagenes/f4.png" class="img-fluid img-thumbnail" alt="foto 2">
+  </div>
+</section>
+
+
+
+
+<div class="modal fade" id="miModal" tabindex="-1" >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="miModal">Formulario</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+
+
+            <form action="codigo.php" class="needs-validation" method="post" novalidate>
+            <div>
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" required name="nombre" id="nombre" class="form-control">
+
+            <div class="invalid-feedback">El campo de nombre está mal!</div>
+
+        </div> 
+
+            <label for="email" class="form-label">Email</label>
+            <input type="email" required name="email" id="email" class="form-control">
+
+            <div class="invalid-feedback">El campo de email está mal</div>
+
+        
+
+         <button class="btn btn-secondary">Enviar Formulario</button>
+
+            </form>
+
+
+      
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+     
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p> 2024 CM Styling. Todos los derechos reservados.</p>
+        
+    </div>
+</footer>
+
+<script src="js/codigo.js"></script>
+
+
+</body>
+</html>
